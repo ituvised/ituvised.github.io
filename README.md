@@ -1,4 +1,4 @@
-This repo deploys a mini site to [[Jekyll](https://ituvised.github.io/)]([https://jekyllrb.com/](https://ituvised.github.io/)) 
+This repo deploys a mini site to [ituvised.github.io](https://ituvised.github.io/)
 
 
 ## Theme
