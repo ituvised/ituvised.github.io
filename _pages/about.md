@@ -1,8 +1,8 @@
 ---
 layout: page
-title: page
+title: Reflections on Designing and Running Visualization Design and Programming Activities in Courses with Many Students
 permalink: /
-description: Reflections on Designing and Running Visualization Design and Programming Activities in Courses with Many Students
+description: 
 order: 10
 
 news: true  # includes a list of news items
