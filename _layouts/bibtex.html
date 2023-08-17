@@ -2,27 +2,6 @@
 ---
 
 <div class="row">
-  <div class="col-sm-4 abbr">
-  {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-      <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
-    {% else %}
-      <abbr class="badge">{{entry.abbr}}</abbr>
-    {% endif %}
-  {% endif %}
-  <a href="{{ entry.key | prepend: '/bibliography/' | relative_url }}" role="button">
-  {% if entry.image %}
-    <img style="float: left; width: 100%;" src="{{ entry.image | prepend: '/assets/publications/' | prepend: site.baseurl | prepend: site.url }}" alt="publication image {% if entry.imagealt %}- {{entry.imagealt}}{% endif %}">
-  {% elsif links.png %}
-    <img style="float: left; width: 100%;" src="{{ links.png }}" alt="image representing the publication, for example, using a figure from the publication">
-  {% elsif links.jpg %}
-    <img style="float: left; width: 100%;" src="{{ links.jpg }}" alt="image representing the publication, for example, using a figure from the publication">
-  {% elsif links.gif %}
-    <img style="float: left; width: 100%;" src="{{ links.gif }}" alt="image representing the publication, for example, using a figure from the publication">
-  {% endif %}
-  </a>
-  </div>
-
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" %}
       {{reference}}
@@ -50,9 +29,9 @@
 
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <em>{{author.last}}, {{author.first}}</em>
+              <em>{{author.first}}, {{author.last}}</em>
             {% else %}
-              {{author.last}}, {{author.first}}
+              {{author.first}}, {{author.last}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
@@ -68,12 +47,12 @@
                 {% endif %}
               {% else %}
                 {% if author_is_self %}
-                  <em>{{author.last}}, {{author.first}}</em>,
+                  <em>{{author.first}}, {{author.last}}</em>,
                 {% else %}
                   {% if coauthor_url %}
-                    <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,
+                    <a href="{{coauthor_url}}">{{author.first}}, {{author.last}}</a>,
                   {% else %}
-                    {{author.last}}, {{author.first}},
+                    {{author.first}}, {{author.last}},
                   {% endif %}
                 {% endif %}
               {% endunless %}
@@ -223,4 +202,25 @@
     </div>
     {% endif %}
   </div>
-</div>
+  
+  <div class="col-sm-4 abbr">
+    {% if entry.abbr %}
+      {% if site.data.venues[entry.abbr] %}
+        <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+      {% else %}
+        <abbr class="badge">{{entry.abbr}}</abbr>
+      {% endif %}
+    {% endif %}
+    <a href="{{ entry.key | prepend: '/bibliography/' | relative_url }}" role="button">
+    {% if entry.image %}
+      <img style="float: left; width: 100%;" src="{{ entry.image | prepend: '/assets/publications/' | prepend: site.baseurl | prepend: site.url }}" alt="publication image {% if entry.imagealt %}- {{entry.imagealt}}{% endif %}">
+    {% elsif links.png %}
+      <img style="float: left; width: 100%;" src="{{ links.png }}" alt="image representing the publication, for example, using a figure from the publication">
+    {% elsif links.jpg %}
+      <img style="float: left; width: 100%;" src="{{ links.jpg }}" alt="image representing the publication, for example, using a figure from the publication">
+    {% elsif links.gif %}
+      <img style="float: left; width: 100%;" src="{{ links.gif }}" alt="image representing the publication, for example, using a figure from the publication">
+    {% endif %}
+    </a>
+    </div>
+    </div>

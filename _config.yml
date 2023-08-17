@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: Reflections on Designing and Running Visualization Design and Programming Activities in Courses with Many Students
-first_name: Søren
+first_name: Reflections on Visualization Courses with Many Students
 middle_name:
-last_name: Knudsen
+last_name: 
 email: soekn@itu.dk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Mini site for paper published at EduVis 2023.
@@ -130,6 +130,7 @@ exclude:
   - vendor
   - trash
   - _posts
+  - "*.disable"
 keep_files:
   - CNAME
   - .nojekyll
@@ -182,8 +183,8 @@ jekyll-archives:
 scholar:
   style: apa
 
-  last_name: Knudsen
-  first_name: [Søren, S., Soren]
+  # last_name: Knudsen
+  # first_name: [Søren, S., Soren]
 
   locale: en
 

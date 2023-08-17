@@ -24,12 +24,12 @@
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
-              {% if page.title == "about" %}
+            {% if page.title != "Reflections on Designing and Running Visualization Design and Programming Activities in Courses with Many Students" %}
+              <a class="nav-link" href="{{ '/' | relative_url }}">
+                Landing page
                 <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
+              </a>
+            {% endif %}
           </li>
           {% if site.blog_name %}
           <!-- Blog -->
