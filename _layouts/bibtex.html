@@ -113,11 +113,11 @@
     {% if page.entry.url %}
       <a href="{{ page.entry.url }}" class="btn btn-sm z-depth-0" role="button">Publisher</a>
     {% endif %}
-    {% if page.entry.doi %}
-      {% if page.entry.doi contains '://' %}
-        <a href="{{ page.entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+    {% if entry.doi %}
+      {% if entry.doi contains '://' %}
+        <a href="{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% else %}
-        <a href="{{ page.entry.doi | prepend: 'https://dx.doi.org/' }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+        <a href="{{ entry.doi | prepend: 'https://dx.doi.org/' }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
     {% endif %}
     {% if entry.arxiv %}
@@ -171,11 +171,11 @@
       <a href="{{ links['poster.pdf'] | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
       {% endif %}
     {% endif %}
-    {% if entry.slides %}
-      {% if entry.slides contains '://' %}
-      <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+    {% if links['slides.pdf'] %}
+      {% if links['slides.pdf'] contains '://' %}
+      <a href="{{ links['slides.pdf'] }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
       {% else %}
-      <a href="{{ entry.slides | prepend: '/assets/publications/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+      <a href="{{ links['slides.pdf'] | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
       {% endif %}
     {% endif %}
     {% if entry.website %}
