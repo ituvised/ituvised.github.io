@@ -126,33 +126,39 @@ After the course, the student should be able to:
 
 The Intended Learning Outcomes are part of the [official course descriptions available from our institution](https://learnit.itu.dk/local/coursebase/view.php?ciid=1187). 
 
-### Course project
-Pending
+### Course project and assessment
+Students worked on a semester-long project in groups of four to five students. 
+The project asked them to use Altair to create an interactive data visualization from a data set that they collected about their own lives and that they collected during the semester. 
+At the end of the semester, student groups submitted a report of roughly 8--10,000 words that described their data collection and design process, as well as the visualizations they produced.
 
-### Course assessment
-Pending
+In addition to serving as a learning opportunity, the project report served to assess the students learning in relation to the ILOs. 
+The assessment was carried out by the lecturer and two external faculty from an examiners corps recruited specifically for this task. 
+Inspired by [Evan Peck's rubrics](https://medium.com/bucknell-hci/creating-a-flipped-hci-course-to-encourage-design-experimentation-and-communication-27dffe615cf5), we drafted five rubrics to guide the students in what to focus and the assessment of student work.
 
-### Exercises
+###### Project and exam materials
+* [Description of exam project brief hand-in](assets/project-and-exam/description-of-project-design-brief-handin.pdf)
+* [Description of exam project](assets/project-and-exam/exam-project-description.pdf)
 
-##### Design exercise overview and additional details
+
+### Design exercise overview and additional details
 Below, we briefly describe each design exercise and its purpose in chronological order. Please see our paper for details on how we prepared for exercise and the observed outcomes.
 
-###### Design exercise 1: Critique and redesign
+#### Design exercise 1: Critique and redesign
 The first design exercise asked students to deconstruct, critique, and redesign data visualizations.
 
-**Purpose:**
+###### Purpose
 We wanted to provide students with an overview of the topic of data visualization and what concrete elements might be in play.
 In addition, since this was the first time students worked with visualizations, we wanted to students to experience how the same data can be represented in many different ways. 
 
-**Teaching materials:**
+###### Teaching materials
 * [Exercise description](assets/exercise-materials/design-exercise-1.pdf)
 * [Description of reflection hand-in](assets/exercise-materials/design-exercise-1-handin.pdf)
 
-###### Design exercise 2: Data collection and sketching
+#### Design exercise 2: Data collection and sketching
 The second design exercise asked students to identify and organize data that was already collected about themselves and to then sketch visualization of the data.
 We divided the exercise session in two sections of 45 minutes. The first focused on data collection and pen-and-paper sketching, while the latter focused on student projects. 
 
-**Purpose:**
+###### Purpose
 We wanted to give students a sense of different opportunities for collecting data about themselves as well as how to externalize their data visualization ideas by sketching in hand.
 Secondly, the exercise came at a time when groups of students were starting to discuss the topic of their personal data visualization projects. 
 Thus, the exercise served to kickstart this process by getting students to think about their projects, and to discuss it in their groups. 
@@ -163,65 +169,65 @@ Additionally, it built on theoretical aspects of data visualization introduced d
 In contrast to the last exercise, this exercise focused on data about themselves.
 The students were asked to identify pre-existing and -collected data about themselves, to organize it for themselves, and then to sketch data visualizations of this data. 
 
-**Teaching materials:**
+###### Teaching materials
 * [Exercise description](assets/exercise-materials/design-exercise-2.pdf)
 * [Description of reflection hand-in](assets/exercise-materials/design-exercise-2-handin.pdf)
 
-###### Design exercise 3: Constructive visualization
+#### Design exercise 3: Constructive visualization
 The third design exercise asked students to use Lego bricks to collaboratively create physical data representations and to evaluate these with their peers. 
 We based the exercise on the Constructive VizKit (Huron et al., 2016; Willett et al., 2016) and the activities described as part of it.
 
-**Purpose:**
+###### Purpose
 We wanted to give students a sense of alternative visualization materialities and their potential role in visualization design. 
 Most importantly, with the co-constructive nature of building visualizations with Lego, we intended for students to experience building off each other's ideas and to do quick experiments in the process of creating, destroying, and building something anew. 
 Hopefully, to then gain a sense of working with the creative design process.
 
-**Teaching materials:**
+###### Teaching materials
 * [Exercise description](assets/exercise-materials/design-exercise-3.pdf)
 * [Description of reflection hand-in](assets/exercise-materials/design-exercise-3-handin.pdf)
 
-###### Design exercise 4: Refining visualization ideas
+#### Design exercise 4: Refining visualization ideas
 The fourth design exercise asked students to use the 10 plus 10 sketching method (Greenberg et al., 2011) for a predefined data set as well as their own. Here student groups were to create a series of ten sketches, each focusing on a specific aspect of the dataset.
 Then, they would select one sketch to explore in 10 further sketches.
 The exercise encourages quick and spontaneous sketching, which helps to capture the essence of the subject with limited time. The sketches had to be done with pen and paper, thus facilitating familiarity with the datasets.
 
-**Purpose:**
+###### Purpose
 We wanted to provide concrete approaches for students work with ideas.
 We facilitated this through experimenting with quick sketching within a time limit.
 Second, the repetition of the sketching process itself promoted familiarity and fluidity, facilitating a deeper understanding of divergent and convergent thinking.
 
-**Teaching materials:**
+###### Teaching materials
 * [Exercise description](assets/exercise-materials/design-exercise-4.pdf)
 * [Description of reflection hand-in](assets/exercise-materials/design-exercise-4-handin.pdf)
 
-###### Design exercise 5: Sketching in the digital medium
+#### Design exercise 5: Sketching in the digital medium
 The fifth design exercise asked students to consider the transition to digital tools, specifically RAWGraphs and Figma, for data exploration and visualization.
 
-**Purpose:**
+###### Purpose
 The primary objective of this activity was to leverage the capabilities of RAWGraphs and Figma to enhance students' understanding of data visualization and its digital applications. We aimed for students to create visually compelling and informative data visualizations using their own datasets or pre-existing datasets.
 
-**Teaching materials:**
+###### Teaching materials
 * [Exercise description](assets/exercise-materials/design-exercise-5.pdf)
 * [Description of reflection hand-in](assets/exercise-materials/design-exercise-5-handin.pdf)
 
-###### Design exercise 6: Heuristic evaluation
+#### Design exercise 6: Heuristic evaluation
 The last design exercise (scheduled after the four programming exercises) asked student groups to perform a heuristic evaluation based on their own project and to team up with another group to do the same with them. 
 We divided the exercise session in two sections of 45 minutes, the first focused on heuristics, while the latter provided time for project work.
 
-**Purpose:**
+###### Purpose
 We wanted the last exercise to provide students with a capstone of their venture into the topic of data visualization and their project work.
 In addition, since this was the last exercise, we wanted to help students connect elements of the course to their previous, parallel, and future studies in their digital design study program. 
 
-**Teaching materials:**
+###### Teaching materials
 * [Exercise description](assets/exercise-materials/design-exercise-6.pdf)
 * [Description of reflection hand-in](assets/exercise-materials/design-exercise-6-handin.pdf)
 
-##### Programming exercise overview and additional details
+### Programming exercise overview and additional details
 After the first five design exercises in the course, we pivoted with a four-week deep dive into programming visualizations with Altair (*Strictly speaking, one could argue this is about specifying visualizations, but we experienced that point falling flat with our student cohort of mostly design-students*). 
 
-Below, we briefly describe each design exercise and its purpose in chronological order. Please see our paper for details on how we prepared for exercise and the observed outcomes.
+Below, we briefly describe each design exercise and its purpose in chronological order. At the end, we provide an overview table of the exercises. Please see our paper for details on how we prepared for exercise and the observed outcomes.
 
-Over the four exercise classes (roughly two hours each), we introduced core aspects of Altair to enable the students to use this technology in their project work. 
+Over the four exercise classes (roughly two hours each), we introduced core aspects of Altair to enable students to use this technology in their project work. 
 
 The four exercises focused on: 
 1. Introducing Google Colab, Pandas dataframes, and Altair; 
@@ -235,46 +241,85 @@ We decided on using Altair for mainly two reasons:
 First, most students followed an introduction to programming course based on Python in the previous semester.
 Second, since Altair is based on the notion of a visualization grammar, it nicely supports learning visualization theoretic concepts, such as visual variables and their efficiency.
 
-###### Altair Exercise 1: Introduction to working with Altair
+###### General teaching materials for programming exercises
+* [Cereal data set for exercises](assets/exercise-materials/programming-exercise-data-sets-cereal.csv)
+
+#### Altair Exercise 1: Introduction to working with Altair
 The first Altair exercise introduced students to the fundamentals of Altair, enabling them to understand its core concepts and syntax. 
 This exercise laid the foundation for their journey into the realm of data visualization using Altair. 
 
 At this point in the course, not all groups had gathered sufficient data for their project work. 
 Thus, to ensure all students were able to do the exercise, we decided to base it on the cereal data set, which is available from the Vega project. 
 
-**Intro to Altair**
+###### Teaching materials
+* [Exercise description](assets/exercise-materials/programming-exercise-1.pdf)
+* [Python Notebook used by TA's during live coding](assets/exercise-materials/programming-exercise-1-live-coding.ipynb)
+* [Python Notebook for students to work in](assets/exercise-materials/programming-exercise-1-student-exercises.ipynb)
 
-| Exercise               | Focus  | Task | Title                           |
-|------------------------|--------|------|---------------------------------|
-| A1: Intro to Altair    | Colab  | T1   | Install the Altair library      |
-|                     |        | T2   | Import pandas, numpy and altair |
-|                     | Pandas | T3   |                                 |
-|                     |        | T4   |                                 |
-|                     |        | T5   |                                 |
-
-
-**Teaching materials:**
-
-###### Altair Exercise 2: Domains and scales in Altair
+#### Altair Exercise 2: Domains and scales in Altair
 The second Altair exercise introduced students to domain and scales, and thus served to bridge theory of visualization variables with practice.
 While we had planned to introduce new aspects of Altair, our experience was that we needed to answer many questions similar to the first exercise, which obviously hindered students' ability to move forward at the same pace.
 
 Since many groups had not yet gathered sufficient data for their project work, we continued to use the cereal data set.
 
-**Teaching materials:**
+###### Teaching materials
+* [Exercise description](assets/exercise-materials/programming-exercise-2.pdf)
+* [Python Notebook used by TA's during live coding](assets/exercise-materials/programming-exercise-2-live-coding.ipynb)
 
-###### Altair Exercise 3: Faceting and multiple views in Altair
+#### Altair Exercise 3: Faceting and multiple views in Altair
 The third Altair exercise introduced students to faceting and multiple views.
 This topic closely followed the preceding lecture as well as the structure of the second Altair exercise (first live coding, then independent work).
 
 Since many groups had collected sufficient data for their projects to be able to work on the project at the time of this exercise, most groups used their own data for the exercise and only a handful of groups used the cereal data set.
 
-**Teaching materials:**
+###### Teaching materials
+* [Exercise description](assets/exercise-materials/programming-exercise-3.pdf)
+* [Python Notebook used by TA's during live coding](assets/exercise-materials/programming-exercise-3-live-coding.ipynb)
 
-###### Altair Exercise 4: Specifying interaction in Altair
+#### Altair Exercise 4: Specifying interaction in Altair
 The fourth and final Altair exercise introduced students to specifying interaction in Altair.
 Again, this topic closely followed the preceding lecture as well as the structure of the other Altair exercises. 
 
 To our knowledge, only one or two groups were not ready to work with their project data during this exercise. 
 
-**Teaching materials:**
+###### Teaching materials
+* [Python Notebook used by TA's during live coding](assets/exercise-materials/programming-exercise-4-live-coding.ipynb)
+
+#### Overview of programming exercise tasks
+
+| Exercise                                               | Focus  | Task | Title                                                                                                   |
+|--------------------------------------------------------|--------|------|---------------------------------------------------------------------------------------------------------|
+|**A1:&#160;Intro&#160;to&#160;Altair**                  | Colab  | T1   | Install the Altair library                                                                              |
+|                                                        |        | T2   | Import pandas, numpy and altair                                                                         |
+|                                                        | Pandas | T3   | Import the cereal .csv file into a DataFrame                                                            |
+|                                                        |        | T4   | Display a single column from a DataFrame                                                                |
+|                                                        |        | T5   | Rename a column                                                                                         |
+|                                                        |        | T6   | Find the product with the highest and the lowest rating                                                 |
+|                                                        | Altair | T7   | Create a scatterplot                                                                                    |
+|                                                        |        | T8   | Make the scatterplot interactive                                                                        |
+|                                                        |        | T9   | Create other data visualizations                                                                        |
+|                                                        |        | T10  | Make the data visualization interactive                                                                 |
+|--------------------------------------------------------|--------|------|---------------------------------------------------------------------------------------------------------|
+|**A2:&#160;Domains&#160;and&#160;scales**               | Colab  | T1   | Install the Altair library                                                                              |
+|                                                        |        | T2   | How to connect to a shared folder                                                                       |
+|                                                        |        | T3   | Import pandas and altair                                                                                |
+|                                                        | Pandas | T4   | Import the cereal .csv file into a DataFrame                                                            |
+|                                                        |        | T5   | Display the first five rows of a DataFrame                                                              |
+|                                                        | Altair | T6   | Changing colors of chart                                                                                |
+|                                                        |        | T7   | Create a scatterplot of *sodium* and *rating*, and make the color of the data points dependent on *mfr* |
+|                                                        |        | T8   | Change the colors of the data points in the chart                                                       |
+|--------------------------------------------------------|--------|------|---------------------------------------------------------------------------------------------------------|
+|**A3:&#160;Faceting&#160;and&#160;multiple&#160;views** | Colab  | T1   | Install the Altair library                                                                              |
+|                                                        |        | T2   | Import pandas and altair                                                                                |
+|                                                        | Pandas | T3   | Import the cereal .csv file into a DataFrame                                                            |
+|                                                        | Altair | T4   | Plotting two charts next to each other                                                                  |
+|                                                        |        | T5   | Layering two charts so one is on top of the other                                                       |
+|                                                        |        | T6   | Adding interaction between the bar chart and the scatterplot                                            |
+|--------------------------------------------------------|--------|------|---------------------------------------------------------------------------------------------------------|
+|**A4:&#160;Specifying&#160;interaction**                | Colab  | T1   | Install the Altair library                                                                              |
+|                                                        |        | T2   | Import pandas and altair                                                                                |
+|                                                        | Pandas | T3   | Import the cereal .csv file into a DataFrame                                                            |
+|                                                        | Altair | T4   | Interval selections                                                                                     |
+|                                                        |        | T5   | Multiple selections                                                                                     |
+|                                                        |        | T6   | Point selections                                                                                        |
+|                                                        |        | T7   | Tooltip channels                                                                                        |

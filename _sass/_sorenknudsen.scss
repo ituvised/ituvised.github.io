@@ -30,3 +30,59 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 10px;
   }
 }
+
+.post table {
+  // margin-left: auto;
+  // margin-right: auto;
+  // width: max-content;
+//   text-align: center;
+  font-size: smaller;
+}
+
+.post table th {
+  border: 0;
+  border-left: 2px solid #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #333;
+  color: white;
+  border-bottom: 2px solid #fff;
+  font-weight: 600!important;
+  // font-size: 0%;
+}
+
+.post table th:nth-child(1) {
+  border: 0;
+  border-bottom: 2px solid #fff;
+}
+
+.post table td {
+  border: 0;
+  border-left: 1px solid #e9ebec;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  vertical-align: top;
+  font-size: 90%;
+}
+
+.post table td:nth-child(1) {
+  border: 0;
+}
+
+.post table tr:nth-child(1) td {
+  padding-top: 9px;
+}
+
+.post table tr:nth-last-child(1) td {
+  padding-bottom: 9px;
+}
+
+
+tbody {
+  border-top: 2px solid #b6b6b6;
+  // border-top: 2px solid #;
+}
